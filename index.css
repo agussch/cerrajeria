@@ -647,7 +647,7 @@ footer{
     }
     .pr2 {
         position: relative;
-        background-image: url(/cerrajeria.avif);
+        background-image: url(./cerrajeria.avif);
         background-size: cover;
         background-position: center;
         height: 490px;
