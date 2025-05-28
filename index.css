@@ -364,3 +364,359 @@ footer{
     display: flex;
     justify-content: center;
 }
+
+
+/* -----------responsive------------ */
+@media (max-width: 1660px){
+    .cont-cuadros{
+        width: 50%;
+    }
+}
+@media (max-width: 1550px){
+    .cont-cuadros{
+        width: 40%;
+    }
+}
+@media (max-width: 1500px){
+    .cont-servicio{
+        height: 550px;
+    }
+    .servicio h2{
+        font-size: 26pt;
+    }
+    .servicio ul li{
+        font-size: 14pt;
+    }
+    .servicio p{
+        font-size: 11.5pt;
+    }
+    .img-servicio img{
+        height: 480px;
+        width: 100%;
+    }
+    .main-pagos{
+        height: 400px;
+    }
+    .tit-pago{
+        font-size: 2.1rem;
+    }
+    .cont-pagos{
+        width: 65%;
+    }
+    .img-pago img{
+        height: 80%;
+    }
+    .desk{
+        width: 45%;
+    }
+    .cont-cuadros{
+        width: 45%;
+    }
+    .cont-nos{
+        width: 90%;
+    }
+    .c1 , .c2 , .c3 , .c4{
+        font-size: 20px;
+        padding: 15px 15px 15px 15px;
+        width: 55%;
+    }
+    .footer-gen{
+        height: 240px;
+    }
+    .about{
+        width: 40%;
+    }
+    .information{
+        width: 40%;
+    }
+}
+@media (max-width: 1225px){
+    .footer-gen{
+        height: 210px;
+    }
+    footer{
+        gap: 0;
+    }
+    .desk i {
+        font-size: 12pt;
+        line-height: 1.4;
+    }
+    .cont-servicio{
+        height: 510px;
+    }
+    .img-servicio img{
+        height: 450px;
+    }
+    .about{
+        gap: 10px;
+        margin-right: 50px;
+    }
+}
+@media (max-width: 900px){
+    .urgencia h1{
+        font-size: 38pt;
+    }
+    .urgencia ul li{
+        font-size: 12pt;
+    }
+    .cont-llama{
+        font-size: 20px;
+    }
+    .pr2 {
+        position: relative;
+        background-image: url(/cerrajeria.avif);
+        background-size: cover;
+        background-position: center;
+        height: 550px;
+    }
+    .img-servicio img {
+        height: 420px;
+    }
+    .servicio{
+        width: 50%;
+        gap: 5px;
+    }
+    .servicio h2 {
+        font-size: 24pt;
+    }
+    .servicio p{
+        font-size: 10pt;
+        width: 80%;
+    }
+    .servicio ul li {
+        font-size: 13pt;
+    }
+    .main-pagos{
+        height: 350px;
+    }
+    .cont-pagos{
+        width: 80%;
+    }
+    .pagos{
+        gap: 15px;
+    }
+    .tit-pago{
+        font-size: 1.9rem;
+    }
+    .img-pago img{
+        height: 270px;
+    }
+    .main-nos{
+        height: 400px;
+    }
+    .desk i{
+        font-size: 11pt;
+        /* width: 55%; */
+    }
+    .c1 , .c2 , .c3 , .c4{
+        font-size: 16px;
+        padding: 15px 15px 15px 15px;
+        width: 55%;
+    }
+    .cont-cuadros{
+        width: 48%;
+    }
+    footer{
+        width: 90%;
+    }
+    .about{
+        gap: 7px;
+        margin-right: 20px;
+        width: 60%;
+    }
+    .about h4{
+        font-size: 18px;
+    }
+    .follow h4{
+        font-size: 18px;
+    }
+    .information h4{
+        font-size: 18px;
+    }
+    .follow ul{
+        gap: 10px;
+    }
+}
+@media (max-width: 810px){
+    .header{
+        width: 90%;
+    }
+    .logo img{
+        width: 135px;
+    }
+    .etc{
+        gap: 10px;
+        right: 0;
+    }
+    .num{
+        width: 100px;
+    }
+    .num a{
+        font-size: 18pt;
+    }
+    .cont-nos{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .desk{
+        margin: auto;
+        width: 90%;
+    }
+    .cont-cuadros{
+        width: 60%;
+    }
+}
+@media (max-width: 600px){
+    .img-servicio{
+        display: none;
+    }
+    .urgencia h1{
+        font-size: 34pt;
+    }
+    .cont-servicio{
+        height: 430px;
+    }
+    .servicio{
+        width: 75%;
+    }
+    .servicio h2{
+        font-size: 32pt;
+    }
+    .servicio p{
+        width: 100%;
+        font-size: 11pt;
+    }
+    .cont-pagos{
+        width: 85%;
+    }
+    .pagos{
+        gap: 10px;
+    }
+    .tit-pago{
+        font-size: 1.6rem;
+    }
+    .pagos ul li {
+        line-height: 1.5;
+        font-size: 12pt;
+    }
+    .img-pago img{
+        height: 230px;
+    }
+    .cont-cuadros{
+        width: 75%;
+    }
+    .cont-about{
+        line-height: 1.4;
+    }
+    .follow{
+        width: 17%;
+    }
+    .follow ul{
+        gap: 0;
+    }
+    .follow li i{
+        height: 24px;
+        width: 24px;
+        margin-right: 5px;
+    }
+    .information{
+        gap: 10px;
+    }
+    .cont-info li{
+        font-size: 15px;
+    }
+    .cont-info li a{
+        font-size: 15px;
+    }
+}
+@media (max-width: 600px){
+    .header{
+        width: 80%;
+    }
+    .etc{
+        display: none;
+    }
+    .logo img{
+        width: 150px;
+    }
+    .urgencia h1{
+        font-size: 27pt;
+    }
+    .cont-llama{
+        font-size: 16px;
+    }
+    .pr2 {
+        position: relative;
+        background-image: url(/cerrajeria.avif);
+        background-size: cover;
+        background-position: center;
+        height: 490px;
+    }
+    .cont-servicio{
+        height: 380px;
+    }
+    .servicio h2{
+        font-size: 26pt;
+    }
+    .servicio p {
+        width: 90%;
+        font-size: 10pt;
+    }
+    .servicio ul {
+        padding: 15px;
+        gap: 7px;
+    }
+    .cont-cuadros{
+        width: 90%;
+    }
+    .about{
+        margin-right: 10px;
+    }
+    .information{
+        width: 35%;
+    }
+}
+@media (max-width: 450px){
+    .c1 , .c2 , .c3 , .c4{
+        font-size: 15px;
+        padding: 10px 10px 10px 10px;
+    }
+    .cont-cuadros{
+        width: 100%;
+    }
+    .cont-about{
+        line-height: 1.1;
+        font-size: 12px;
+    }
+    .cont-info li{
+        font-size: 12px;
+        gap: 3px;
+    }
+    .footer-gen{
+        height: 195px;
+    }
+    .follow{
+        gap: 10px;
+    }
+    .follow ul{
+        flex-direction: column;
+        gap: 3px;
+    }
+    .follow ul li{
+        justify-content: center;
+        display: flex;
+    }
+}
+@media (max-width: 400px){
+    .cont-llama{
+        font-size: 13px;
+    }
+    .img-pago{
+        display: none;
+    }
+}
+@media (max-width: 400px){
+    .cont-servicio{
+        height: 440px;
+    }
+}
