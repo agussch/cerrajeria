@@ -138,3 +138,229 @@
 .cont-llama h2{
     color: white;
 }
+
+/* ------servicios------ */
+.main-servicio{
+    margin: auto;
+    display: flex;
+}
+.cont-servicio{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 660px;
+}
+
+.servicio{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.servicio p{
+    width: 70%;
+}
+.servicio h2{
+    font-size: 35pt;
+}
+.servicio ul{
+    padding: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.servicio ul li{
+    font-size: 16pt;
+    gap: 10px;
+    display: flex;
+}
+.img-servicio img{
+    width: 400px;
+    border-radius: 15px;
+}
+
+.main-pagos{
+    background-color: #F5F5F5;
+    height: 450px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.cont-pagos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.pagos{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.tit-pago{
+    line-height: 1.3;
+    color: #131d3b;
+    font-size: 2.575rem;
+    font-weight: 700;
+    clear: both;
+    box-sizing: border-box;
+}
+.pagos ul li{
+    line-height: 1.8;
+    font-size: 13pt;
+}
+.pagos i{
+    font-size: 13pt;
+}
+
+.main-nos{
+    margin: auto;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+.cont-nos{
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+.desk{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.desk h3{
+    font-size: 25pt;
+}
+.desk i{
+    font-size: 13pt;
+    line-height: 1.6;
+}
+.cont-cuadros{
+    width: 40%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.pa , .pb{
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    gap: 10px;
+}
+
+.c1 , .c2 , .c3 , .c4{
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(241, 24, 24);
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+    font-size: 25px;
+    width: 50%;
+}
+
+/* --------------footer------------ */
+footer{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    gap: 50px;
+}
+.footer-gen{
+    background-color: #2f2f2f;
+    height: 250px;
+    display: flex;
+}
+.about{
+    width: 33%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    position: relative;
+}
+.about h4{
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.cont-about{
+    color: white;
+    font-size: 13px;
+    line-height: 2;
+}
+.information{
+    width: 33%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.information h4{
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.cont-info li{
+    color: white;
+    font-size: 17px;
+    line-height: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.cont-info li i{
+    width: 20px;
+    justify-content: center;
+    color: white;
+    display: flex;
+}
+.cont-info li a{
+    color: white;
+    font-size: 17px;
+    line-height: 2;
+}
+.follow{
+    width: 33%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+.follow h4{
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.follow ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.follow li i {
+    font-size: 14px;
+    color: #262725;
+    border: solid 2px #ffffff;
+    height: 31px;
+    width: 31px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 100px;
+    line-height: 27px;
+    margin-right: 15px;
+    transition: 1s;
+    background: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
